@@ -1,0 +1,109 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0; 
+    background-color: #f4f4f4;
+
+
+}
+
+.container{
+    width:80%;
+    margin: auto; 
+    overflow: hidden;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    
+}
+
+header{
+    background: #35424a;
+    color :#ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid; 
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+ 
+
+header li{
+    float : left;
+    display:inline;
+    padding: 0 20px 0 20px;  
+}
+header #brading{
+    float: left;
+
+}
+header #branding h1{
+    margin: 0;
+    font-size :50px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color:orange; 
+    font-weight: bold; 
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+
+/*profile text page*/
+
+#profilepic{
+    min-height:600px;
+    background : url('./image/picture1.jpg') no-repeat 0 -500px; 
+    text-align: center;
+    color: #ffffff;
+
+}
+
+#profilepic h1{
+    margin-top :100px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#profilepic p{
+    font-size: 16px;
+}
+
+/*boxes*/
+
+#boxes{
+    margin-top:20px;
+
+}
+
+#boxes .box{
+   
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+
+}
+
+#boxes .box img{
+    width: 100%; 
+}
+
+#boxes .box h3{
+    font-size: 35px;
+    text-align: center;
+}
+
